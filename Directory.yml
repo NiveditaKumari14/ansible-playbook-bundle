@@ -1,0 +1,9 @@
+--- 
+- 
+  hosts: "10.0.4.88"
+  tasks: 
+    - 
+      file: 
+        path: /tmp/yallo
+        state: touch
+      name: "Create file"
